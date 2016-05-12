@@ -23,10 +23,10 @@ tr.TableHead {
     height: 20px;
     border-bottom: 1px outset rgba(0,0,0,0.15);
 }
-tr.White {
+tr.TableCont:nth-child(2n) {
     background: white;
 }
-tr.Beige {
+tr.TableCont:nth-child(2n+1) {
     background: #ECECD8;
 }
 th {
