@@ -1,0 +1,42 @@
+body {
+    background-color: #595959;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #C0BDBB;
+    line-height: 1.5em
+}
+h1 {
+    font-size: 1rem;
+    font-weight: 100;
+}
+table {
+    width: 300px;
+}
+td.Term {
+    vertical-align: top; 
+    color: #FFFFFF;
+    font-style: italic;
+    width: 35%;
+    padding: 0.3em;
+}
+td.Def {
+    vertical-align: top;
+    width: 65%;
+    padding: 0.3em;
+}
+a {
+    color: #FDF7B4;
+    text-decoration: none;
+}
+
+div.NoSupport {
+    color: red;
+    font-weight: bold;
+}
+div.GreenCircle {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: green;
+    border-radius: 0.4rem;
+    display: inline-block;
+}

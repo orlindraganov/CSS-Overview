@@ -1,0 +1,44 @@
+body {
+    background-color: #A9A9A9;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+h1 {
+    color: #FAFAD2;
+    text-align: center;
+    font-size: 3rem;
+}
+nav {
+    text-align: center; 
+}
+ul {
+    color: white;
+    list-style-type: none;
+    padding: 0;
+    border-bottom: 2px solid white;
+    display: inline-block ;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+}
+nav a.current {
+    background-color: #D3D3D3;
+}
+section h1 {
+    color: #FAFAD2;
+    text-align: left;
+    font-size: 2rem;
+}
+section footer {
+    font-size: 0.9rem;
+    text-align: left;
+}
+section a {
+    text-decoration: none;
+    color: black;
+}
+footer {
+    text-align: center;
+}
